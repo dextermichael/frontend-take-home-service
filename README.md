@@ -1,8 +1,21 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+First Install the dependencies, then start the development server:
+```bash
+npm install
 
-First, run the development server:
+```
+Then, create .env file and add your API keys
+```bash
+BACKEND_API_URL="https://frontend-take-home-service.fetch.com"
+
+NEXTAUTH_SECRET=9VcNWL2Z3VLqLzTOWRfjMSpOw6v19hIIZ9hfbVgf9nw=
+NEXTAUTH_URL=http://localhost:3000
+NEXT_PUBLIC_NEXTAUTH_URL=http://localhost:3000
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
